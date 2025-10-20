@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="part_1">
+            <img src="" alt="">
+            <h5>Character Counter</h5>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+    </header>
+
+    <h1>Analyze your text 
+        <br>
+        in real-time
+    </h1>
+
+    <input type="text" id="typing_area" style="" placeholder="start typing here... (or past your text)">
+    
+    <div>
+        <input type="checkbox" id="exclude_space">
+        <label for="exclude_space">exclude space</label>
+        <input type="checkbox" id="character_limite">
+        <label for="">set character limite</label>
+    </div>
+    
+    <div id="container_of_conter_result">
+        <div id="total_character" class="conter_result">
+            <span>00</span>
+            <h6>Total character</h6>
+        </div>
+        <div id="word_count" class="conter_result">
+            <span>00</span>
+            <h6>Word count</h6>
+        </div>
+        <div id="sentence_count" class="conter_result">
+            <span>00</span>
+            <h6>Sentence count</h6>
+        </div>
+    </div>
+
+    <h4>Letter densitiy</h4>
+
+    <p>No character found start typing to see the result</p>
+    <div id="container_of_characters_static">
+        <div>
+            <span style="width: fit-content;">e</span>
+            <div   style="background-color: aqua;height: 10px;">
+                <div style="background-color: black;height: 10px; width: 50%;"></div>
+            </div>
+            <span style="width: fit-content;">e(hh)</span>
+        </div>
+    </div>
+    <script src="imfex.js"></script>
+</body>
+</html>

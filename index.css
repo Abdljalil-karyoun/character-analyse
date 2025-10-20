@@ -1,0 +1,29 @@
+*{border: solid blaCK 1PX;}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: red;
+    border: solid blaCK 2PX;
+    width: 90%;
+}
+header{
+    display: flex;
+}
+#part_1{
+    display: flex;
+    width: ;
+    justify-content: space-between;
+}
+#typing_area{
+    height: 160px;
+    border-radius: 10px;
+    background-color: ;
+    
+}
+#container_of_conter_result{
+    display: flex;
+
+}
+
